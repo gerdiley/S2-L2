@@ -12,18 +12,19 @@ body {
 hr {display: none;} /* rimuove l'elemento */
 
 .toTop {
-    position:fixed;
     top: 400px;
     right: 5px;
-    font-size: 3rem;
 }
 
 .toSocial {
-    position:fixed;
     top: 300px;
     right: 5px;
+}
+
+.toTop, .toSocial{
+    position:fixed;
     font-size: 3rem;
-    
+    background-color: white;
 }
 
  .toTop a{
@@ -48,6 +49,7 @@ header {
     padding: 2em 1.5em;
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 header div img {
     margin-bottom: 20px;
@@ -97,6 +99,7 @@ section h2 {
     padding: 0 20px;
     left: 10px;
     top: -10px;
+    box-shadow: 1px 1px 1px grey;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
